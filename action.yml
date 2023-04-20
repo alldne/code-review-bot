@@ -2,7 +2,7 @@ name: "Code review bot"
 description: "This is Code review bot."
 author: "This is me"
 runs:
-  using: "node12"
+  using: "node16"
   main: "index.js"
 inputs:
   config_path:
