@@ -1,0 +1,14 @@
+name: "Code review bot"
+description: "This is Code review bot."
+author: "This is me"
+runs:
+  using: "node12"
+  main: "index.js"
+inputs:
+  my_input:
+    description: "A description of my input."
+    required: true
+    default: "default value"
+outputs:
+  my_output:
+    description: "A description of my output."
