@@ -5,10 +5,10 @@ runs:
   using: "node12"
   main: "index.js"
 inputs:
-  my_input:
+  config_path:
     description: "A description of my input."
     required: true
-    default: "default value"
+    default: "./code-review-bot.yml"
 outputs:
   my_output:
     description: "A description of my output."
